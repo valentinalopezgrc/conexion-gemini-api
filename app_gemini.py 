@@ -16,7 +16,7 @@ def ejecutar_consulta():
         # 3. Llamada directa al servicio de modelos
         response = client.models.generate_content(
             model="gemini-3-flash-preview",
-            contents="Preséntate brevemente como un asistente de IA configurado para apoyar el curso de 'Desarrollo de aplicaciones con IA.'"
+            contents="¿Cuáles son las principales limitaciones de la API de Gemini al desarrollar aplicaciones de inteligencia artificial?'"
         )
         print("\n--- Respuesta Recibida ---")
         print(response.text)
@@ -26,3 +26,4 @@ def ejecutar_consulta():
  
 if __name__ == "__main__":
     ejecutar_consulta()
+    
