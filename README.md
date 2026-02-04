@@ -21,6 +21,7 @@ Estas instrucciones son para el entorno de macOS:
 1. Clonar el repositorio:
 
 git clone https://github.com/valentinalopezgrc/conexion-gemini-api.git
+
 cd conexion-gemini-api
 
 2. Crear entorno virtual:
@@ -75,14 +76,16 @@ python3 -m pip freeze > requirements.txt
 
 A continuación evidencia de la ejecución correcta del programa en la imagen adjunta.
 
-Ejecución correcta del script `app_gemini.py` mostrando respuesta de la API de Gemini:
+Ejecución correcta del script `app_gemini.py` mostrando respuesta de la API de Gemini a la pregunta "¿Cuáles son las principales limitaciones de la API de Gemini al desarrollar aplicaciones de inteligencia artificial?":
 
 ![Evidencia de ejecución](evidencia.png)
 
 ##  Realizado por:
 
 Laura Valentina López García
+
 Estudiante de ingeniería de Sistemas
+
 Fundación Universitaria Konrad Lorenz
 
 
